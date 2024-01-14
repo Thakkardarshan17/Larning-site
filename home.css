@@ -1,0 +1,243 @@
+
+body{
+    inset: 0;
+    background-color: rgb(240, 240, 240);
+    user-select: none;
+  }
+  
+  span{
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    left: 2rem;
+    top: 0.5rem;
+  }
+  
+  .span1{
+    font-size: 40px;
+    color: red;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+  }
+  
+  nav{
+    position: relative;
+    top: 2rem;
+    text-align: center;
+  }
+  
+  a{
+    text-decoration: none;
+    margin: 1.5%;
+    font-size: 22px;
+    font-weight: 700;
+    top: 1rem;
+    position: relative;
+    color: black;
+    transition: all ease 0.5s;
+  }
+  
+  a:hover{
+    color: rgba(231, 19, 19, 0.932);
+    text-decoration: underline;
+  }
+  
+  .hr1{
+    position: relative;
+    bottom: 1rem;
+    border: 1px solid rgba(58, 56, 56, 0.377);
+    box-shadow: 5px 5px 5px black;
+    width: 101%;
+    right: 0.8rem;
+   
+  }
+  
+  .hr2{
+    position: relative;
+    top:  2rem;
+    border: 1px solid rgba(58, 56, 56, 0.377);
+    box-shadow: 5px 5px 5px black;
+    width: 101%;
+    right: 0.8rem;
+  
+   
+   
+  
+  }
+  
+  .video{
+    position: relative;
+    top: 7rem;
+    display: inline;
+    justify-content: center;
+  }
+  
+  h3{
+    position: relative;
+    top: 5rem;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .line{
+    position: relative;
+    top: 4rem;
+    width: 6rem;
+    border: 2px solid black;
+  }
+  
+  .container{
+    position: relative;
+    top: 5rem;
+  }
+  
+  .I{
+   margin: 1.6%;
+   position: relative;
+   left: 1.2rem;
+    transition: all ease 0.6s;
+  }
+  
+  .I:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  .Intro1{
+    position: relative;
+    top: 6rem;
+  }
+  
+  marquee{
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 1px  2px 2px black;
+    top: 2rem;
+    position: relative;
+  }
+  
+  
+    
+  .Social{
+    position: relative;
+    top: 12rem;
+    padding-left: 44%;
+  }
+  
+  p{
+    text-align: center;
+    position: relative;
+    bottom: 1rem;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .F1{
+    position: relative;
+    top: 16rem;
+    background-color: rgb(66, 73, 73);
+    padding-right: 0.2rem;
+    padding-top: 1rem;
+    width: 100.7%;
+    right: 0.5rem;
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width:600px) {
+    body{
+      background-color: rgba(127, 255, 212, 0.281);
+    }
+  
+    
+  
+      span{
+        position:relative;
+          left: 4rem;
+      }
+  
+      .hr1{
+        position: relative;
+        bottom: 0.5rem;
+        border: 1px solid rgba(58, 56, 56, 0.377);
+        box-shadow: 3px 4px 5px black;
+        width: 100%;
+        right: 0.4rem;
+      }
+      
+      .hr2{
+        position: relative;
+        top:  2rem;
+        border: 1px solid rgba(58, 56, 56, 0.377);
+        box-shadow: 3px 4px 5px black;
+        width: 100%;
+        right: 0.4rem;
+      }
+  
+     .I{
+      height: 15rem;
+      width: 22rem;
+      position: relative;
+      padding-right: 1rem;
+      display: inline-flex;
+      justify-content: center;
+      
+     }
+  
+     .Intro1{
+      position: relative;
+      top: 6rem;
+      display: inline;
+    }
+    .Social{
+      position: relative;
+      top: 12rem;
+      padding-left: 16%;
+    }
+  
+    .F1{
+      position: relative;
+      top: 16rem;
+      background-color: rgb(66, 73, 73);
+      padding-right: 0.2rem;
+      padding-top: 1rem;
+      width: 110%;
+    
+    }
+  
+    .Social_Media{
+      position: relative;
+      top: 12rem;
+      text-align: center;
+      left: 1rem;
+    }
+    
+  
+    
+    
+  }
+  
+  .instagram,.facebook,.linkedin{
+    height: 3rem;
+    margin: 1rem;
+    transition: all ease 0.5s;
+  }
+  
+  .instagram:hover ,.facebook:hover,.linkedin:hover{
+    transform: scale(1.2);
+  }
+  
+  .Social_Media{
+    position: relative;
+    top: 12rem;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
